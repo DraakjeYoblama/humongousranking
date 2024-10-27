@@ -15,9 +15,18 @@ html {
 
 @media only screen {
     body {
-        margin: 2em auto;
-        max-width: 900px;
-        color: #37352f
+        color: #37352f;
+        background-color: #fff
+    }
+
+    .page {
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 800px
+    }
+
+    article {
+        margin-bottom: 14em
     }
 }
 
@@ -74,7 +83,7 @@ figure {
 }
 
 figcaption {
-    opacity: .5;
+    opacity: .7;
     font-size: 85%;
     margin-top: .5em
 }
@@ -159,7 +168,12 @@ ol>li {
 }
 
 .page-description {
-    margin-bottom: 2em
+    margin-bottom: 2em;
+    color:#2f2f2f
+}
+
+.page-description p {
+    margin: 0
 }
 
 time {
@@ -168,8 +182,7 @@ time {
 
 .icon {
     display: inline-block;
-    max-width: 1.2em;
-    max-height: 1.2em;
+    max-height: 4em;
     text-decoration: none;
     vertical-align: text-bottom;
     margin-right: .5em
@@ -188,7 +201,8 @@ img.icon {
     display: block;
     object-fit: cover;
     width: 100%;
-    max-height: 30vh
+    min-height: 30vh;
+    max-height: 50vh
 }
 
 .page-header-icon {
@@ -197,7 +211,7 @@ img.icon {
 }
 
 .page-header-icon-with-cover {
-    margin-top: -.72em;
+    margin-top: -1.5em;
     margin-left: .07em
 }
 
