@@ -1,10 +1,12 @@
 html {
-    -webkit-print-color-adjust: exact
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
 }
 
 * {
     box-sizing: border-box;
-    -webkit-print-color-adjust: exact
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
 }
 
 body,
@@ -37,6 +39,10 @@ body {
 a {
     color: inherit;
     text-decoration: underline
+}
+
+a.hiddenlink {
+    text-decoration: none
 }
 
 h1,
@@ -95,7 +101,7 @@ hr {
     height: 1px;
     visibility: visible;
     border: none;
-    border-bottom: 1px solid rgba(55, 53, 47, .09)
+    border-bottom: 1px solid rgba(55, 53, 47, 0.3)
 }
 
 img {
